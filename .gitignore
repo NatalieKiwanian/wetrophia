@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.whl
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# FAISS / vectorstore and other large binaries
+obgyn_index/
+index.faiss
+index.pkl
+*.bin
+
+# Data / DB
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Streamlit specific
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage / test artifacts
+.coverage
+htmlcov/
+pytest_cache/
+
+# Docker
+docker-compose.override.yml
+.env.*.local
+
+# Optional: Git LFS pointer files (if using git-lfs)
+*.lfs
+
